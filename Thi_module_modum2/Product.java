@@ -74,12 +74,11 @@ public Product(int id, String name, Double price, int quantity, String describe)
 
     @Override
     public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", quantity=" + quantity +
-                ", describe='" + describe + '\'' +
-                '}';
+        return id + ","
+               + name + ","
+               +price + ","
+               +quantity + ","
+               + describe
+            ;
     }
 }
