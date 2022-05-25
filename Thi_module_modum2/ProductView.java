@@ -255,17 +255,17 @@ public class ProductView {
         showProductsSort(InputOption.SHOW, productService.findAllOrderByPriceDESC());
     }
     public static void menu(){
-        System.out.println("⚪ ⚪ ⚪ ⚪ ⚪              Bill Cafe                  ⚪ ⚪ ⚪ ⚪ ⚪");
+        System.out.println("⚪ ⚪ ⚪ ⚪ ⚪              MENU                  ⚪ ⚪ ⚪ ⚪ ⚪");
         System.out.println("⚪                                                           ⚪");
-        System.out.println("⚪     1. Xem danh sách                                   ⚪");
-        System.out.println("⚪     2. Thêm sản phẩm                            ⚪");
-        System.out.println("⚪     3. Cập nhập sản phẩm                              ⚪");
-        System.out.println("⚪     4. Xoá sản phẩm                       ⚪");
-        System.out.println("⚪     5. Xắp xếp sản phẩm      ⚪");
-//        System.out.println("⚪     6. Hiển thị dánh sánh theo giá sản phẩm giảm đân      ⚪");
-        System.out.println("⚪     8. Quay lại                                           ⚪");
-        System.out.println("⚪     0. Thoát chương trình                                 ⚪");
-        System.out.println("⚪                                                           ⚪");
+        System.out.println("⚪     1. Xem danh sách                                      ⚪");
+        System.out.println("⚪     2. Thêm sản phẩm                                      ⚪");
+        System.out.println("⚪     3. Cập nhập sản phẩm                                   ⚪");
+        System.out.println("⚪     4. Xoá sản phẩm                                        ⚪");
+        System.out.println("⚪     5. Xắp xếp sản phẩm                                    ⚪");
+//        System.out.println("⚪     6. Hiển thị dánh sánh theo giá sản phẩm giảm đân     ⚪");
+        System.out.println("⚪     8. Quay lại                                            ⚪");
+        System.out.println("⚪     0. Thoát chương trình                                  ⚪");
+        System.out.println("⚪                                                            ⚪");
         System.out.println("⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪");
     }
 
